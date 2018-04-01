@@ -13,12 +13,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="xxxx-facade" target="1.5" />
+      <module name="xxxx-facade" target="1.8" />
       <module name="xxxx-service" target="1.6" />
-      <module name="xxxx-web-service" target="1.5" />
-      <module name="xxxxfacade" target="1.5" />
-      <module name="xxxxparent" target="1.5" />
-      <module name="xxxxservice" target="1.5" />
+      <module name="xxxx-web-service" target="1.8" />
+      <module name="xxxxparent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

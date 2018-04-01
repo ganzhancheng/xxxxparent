@@ -1,6 +1,6 @@
 package com.xxxx.mybatis.IDao;
 
-import com.xxxx.mybatis.entity.Area;
+import com.xxxx.mybatis.domain.Area;
 
 import java.util.List;
 
