@@ -15,4 +15,6 @@
 
     <dubbo:reference interface="com.xxxx.repo.AreaService" id="areaService" timeout="100000" check="false"></dubbo:reference>
 
+    <dubbo:reference interface="com.xxxx.repo.IProductService" id="productService" timeout="100000" check="false"></dubbo:reference>
+
 </beans>

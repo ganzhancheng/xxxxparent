@@ -1,6 +1,12 @@
 package com.xxxx.mybatis.domain;
 
-public class Product {
+import java.io.Serializable;
+
+/**
+ * @author sshhu
+ */
+public class Product implements Serializable{
+
     private Integer id;
 
     private Integer enterpriseid;
