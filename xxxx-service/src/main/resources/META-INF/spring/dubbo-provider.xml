@@ -12,7 +12,6 @@
 
 
     <dubbo:registry protocol="zookeeper" address="zookeeper://192.168.21.138:2181" timeout="100000"/>
-    <dubbo:service interface="com.xxxx.repo.AreaService" ref="areaService"></dubbo:service>
     <dubbo:service interface="com.xxxx.repo.IProductService" ref="productService"></dubbo:service>
 
 </beans>

@@ -13,8 +13,6 @@
 
     <dubbo:registry protocol="zookeeper" address="zookeeper://192.168.21.138:2181" timeout="100000"/>
 
-    <dubbo:reference interface="com.xxxx.repo.AreaService" id="areaService" timeout="100000" check="false"></dubbo:reference>
-
     <dubbo:reference interface="com.xxxx.repo.IProductService" id="productService" timeout="100000" check="false"></dubbo:reference>
 
 </beans>

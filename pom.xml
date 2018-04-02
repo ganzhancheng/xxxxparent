@@ -17,6 +17,7 @@
     <properties>
         <spring.version>4.3.3.RELEASE</spring.version>
         <mybatis.version>3.4.2</mybatis.version>
+        <spring-data-mongodb.version>1.8.4.RELEASE</spring-data-mongodb.version>
     </properties>
 
     <dependencies>
@@ -205,6 +206,21 @@
                     <groupId>org.slf4j</groupId>
                 </exclusion>
             </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-mongodb</artifactId>
+            <version>${spring-data-mongodb.version}</version>
+        </dependency>
+
+
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
     <build>
